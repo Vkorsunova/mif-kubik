@@ -1,0 +1,11 @@
+.warning {
+    background-color: #eee;
+    padding: 1em;
+    border-left: 1em solid #f88;
+}
+
+.custom {
+    background-color: #eee;
+    padding: 1em;
+    border-left: 1em solid #8d8;
+}
