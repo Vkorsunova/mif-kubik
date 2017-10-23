@@ -5,7 +5,7 @@ Plugin URI: http://mif.vspu.ru
 Description: Плагин автоматического создания текстовых документов из Excel-шаблонов
 Author: Вероника Корсунова
 Version: 1.0
-Author URI: https://vk.com/
+Author URI: https://vk.com/veronica.korsunova
 */
 
 
@@ -19,23 +19,23 @@ add_action( 'init', 'sample_init' );
 function sample_init() 
 {
 
-    // В примере - создается новый тип записей "Анкета" (questionnaire)
+    // В примере - создается новый тип записей "Документ" (doc)
     // Подробнее - http://wp-kama.ru/function/register_post_type
 
     register_post_type( 'doc', array(
         'labels' => array(
-        'name'            => __( 'Docs' ),
-        'singular_name'   => __( 'Doc' ),
-        'add_new'         => __( 'Add docs' ),
-        'add_new_item'    => __( 'Add doc' ),
-        'edit'            => __( 'Edit questionnaire' ),
-        'edit_item'       => __( 'Edit questionnaire item' ),
-        'new_item'        => __( 'Single questionnaire' ),
-        'all_items'       => __( 'All docs' ),
-        'view'            => __( 'View questionnaires' ),
-        'view_item'       => __( 'View single questionnaire' ),
-        'search_items'    => __( 'Search questionnaires' ),
-        'not_found'       => __( 'Questionnaires not found' ),
+        'name'            => __( 'Docs' ), //Имя 
+        'singular_name'   => __( 'Doc' ),  //Единственное имя
+        'add_new'         => __( 'Add docs' ), //Добавить новое
+        'add_new_item'    => __( 'Add doc item' ), //Добавить новый элемент
+        'edit'            => __( 'Edit doc' ), //Редактировать
+        'edit_item'       => __( 'Edit doc item' ), //Редактировать элемент
+        'new_item'        => __( 'Single doc' ), //Новый элемент
+        'all_items'       => __( 'All docs' ), //Все элементы
+        'view'            => __( 'View docs' ), //Посмотреть
+        'view_item'       => __( 'View single doc' ), //Посмотреть элемент
+        'search_items'    => __( 'Search docs' ), //Поиск элементов
+        'not_found'       => __( 'Docs not found' ), //Не найдено
     ),
     'public' => true, 
     'menu_position' => 20,
