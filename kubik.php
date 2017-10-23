@@ -24,7 +24,7 @@ function sample_init()
 
     register_post_type( 'doc', array(
         'labels' => array(
-        'name'            => __( 'Docs' ), //Имя 
+        'name'            => __( 'Docs' ), //
         'singular_name'   => __( 'Doc' ),  //Единственное имя
         'add_new'         => __( 'Add docs' ), //Добавить новое
         'add_new_item'    => __( 'Add doc item' ), //Добавить новый элемент
