@@ -1,11 +1,32 @@
-.warning {
-    background-color: #eee;
-    padding: 1em;
-    border-left: 1em solid #f88;
+.error, .note {
+    background-color: #EEE;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-left: 1rem solid #f44;
 }
 
-.custom {
-    background-color: #eee;
-    padding: 1em;
-    border-left: 1em solid #8d8;
+.note {
+    border-left: 1rem solid #46B450;
+}
+
+.upload {
+    background-color: #EEE;
+    padding: 1rem;
+}
+
+.upload input[type=file] {
+    padding: 2rem 1rem;
+    width: 100%;
+    border: 3px dashed #999;
+    
+}
+
+.upload input[type=text] {
+    width: 100%;
+}
+
+div.part {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
 }
